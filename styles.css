@@ -1,0 +1,545 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("photos/Illustrationofboys.svg"),
+    url("photos/Vector.svg"), url("photos/Rectangle\ footer.svg");
+  background-repeat: no-repeat;
+  background-position: top right, bottom 27.64rem center, bottom center;
+  background-size: 1316px 1374px, 100vw, 100vw;
+}
+
+/*Nav Menu*/
+.logo-container {
+  margin-top: 20px;
+  margin-left: 70px;
+  display: inline-block;
+}
+
+.logo-image {
+  width: 55.32px;
+  height: 34.5px;
+  display: inline-block;
+}
+
+.company-name {
+  display: inline-block;
+  width: 148.69px;
+  height: 25.67px;
+}
+
+.navigation {
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 600px;
+}
+
+a {
+  margin-right: 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+}
+
+.signin {
+  margin-left: 60px;
+}
+
+.signup-button {
+  border-radius: 52px;
+  background: #fff;
+  width: 147px;
+  height: 48px;
+  border-style: none;
+}
+
+/*At Tokners are*/
+.blue-text {
+  color: #2278d4;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; 
+}
+
+.header-one {
+  color: #191b21;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; 
+}
+
+.description-one {
+  color: lightgray;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.learnmore-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  border-radius: 52px;
+  background: #22a75d;
+  border-style: none;
+  padding: 15px;
+  cursor: pointer;
+}
+
+.toknersmain-container {
+  width: 28%;
+  margin-top: 9rem;
+  margin-left: 3rem;
+}
+
+/*For Creators/Hoodlers*/
+.creators-container {
+  margin-top: 20rem;
+  text-align: center;
+}
+.creators-card {
+  display: inline-block;
+  width: 40rem;
+  height: 51rem;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: rgba(242, 240, 244, 0.95);
+  text-align: center;
+  padding: 2rem;
+  margin-right: 20px;
+}
+
+.hodlers-card {
+  display: inline-block;
+  width: 40rem;
+  height: 51rem;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: rgba(242, 240, 244, 0.95);
+  text-align: center;
+  padding: 2rem;
+}
+
+.creators-header {
+  color: #191b21;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  margin-bottom: 2rem;
+}
+
+.creators-green {
+  color: #22a75d;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  text-decoration-line: underline;
+}
+
+.creators-description {
+  color: #191b21;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.card-number {
+  color: #191b21;
+  opacity: 0.3;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+}
+
+.hodlers-blue {
+  color: #2278d4;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  text-decoration-line: underline;
+}
+
+.hoodler-img {
+  height: 33rem;
+  padding-bottom: 0.3rem;
+}
+
+/*What makes us different?*/
+.different-container {
+  background-image: url("photos/Union.svg");
+  background-repeat: no-repeat;
+  margin-top: -28rem;
+  text-align: center;
+  padding-top: 35rem;
+  height: 100rem;
+}
+
+.question-side {
+  display: inline-block;
+  text-align: left;
+  padding: 75px;
+  vertical-align: top;
+}
+
+.text-side {
+  display: inline-block;
+  width: 600px;
+  margin-top: 30px;
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.logo-side {
+  display: inline-block;
+  width: 55.315px;
+  height: 34.5px;
+  margin-right: 2rem;
+}
+
+.question {
+  display: inline-block;
+  width: 356px;
+  color: #f7f5f9;
+  font-size: 48px;
+  font-weight: 500;
+  vertical-align: top;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.header-side {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.6;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.big-text1,
+.big-text2 {
+  opacity: 0.6;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  text-align: justify;
+}
+.big-text2 {
+  margin-top: 10px;
+}
+
+/*List*/
+.list-container {
+  padding: 70px;
+  margin-top: -20rem;
+  background-image: url("photos/image\ 66.svg");
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.list-name {
+  color: #191b21;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+  opacity: 0.7;
+  width: 332px;
+}
+.list-one {
+  color: #2278d4;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; 
+}
+
+.list-onee {
+  display: inline-block;
+  vertical-align: top;
+}
+.list-two {
+  display: inline-block;
+  vertical-align: top;
+}
+.list-three {
+  display: inline-block;
+  vertical-align: top;
+}
+.list-four {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lists {
+  margin-top: 11rem;
+  margin-left: 4rem;
+}
+
+/*Tokners is Coming*/
+.clouds-container {
+  text-align: center;
+  height: 100rem;
+  background-image: url("photos/Subtract.svg");
+  background-repeat: no-repeat;
+  background-size: 100vw;
+}
+.clouds-text {
+  display: inline-block;
+  width: 40rem;
+  text-align: left;
+  padding: 2rem;
+  text-align: justify;
+  margin-right: 3rem;
+}
+
+.white-card {
+  display: inline-block;
+  width: 40rem;
+  height: 45rem;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #f7f5f9;
+  background-image: url("photos/image\ 21.png"), url("photos/image\ 28.png"),
+    url("photos/image\ 29.png");
+  background-repeat: no-repeat;
+  background-position: bottom -12rem left -8rem, top 3rem left 2rem,
+    right 1rem bottom 2rem;
+  margin-top: 28rem;
+}
+
+.clouds-header {
+  color: #191b21;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 20px;
+  line-height: 54px; 
+}
+
+.bold-txt {
+  color: #191b21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; 
+}
+
+.new-line {
+  opacity: 0.6;
+  color: #191b21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/*Presale Details*/
+.presale-container {
+  text-align: center;
+  height: 75rem;
+  background-image: url("photos/image\ small\ racket.png"),
+    url("photos/image\ 30.png");
+  background-repeat: no-repeat;
+  background-position: top -95px right -48px, top left 20px;
+}
+
+.phase-one {
+  display: inline-block;
+  width: 511px;
+  height: 585px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  padding: 3rem;
+  background-image: url("photos/01.svg");
+  background-repeat: no-repeat;
+  background-position: top 2rem center;
+  margin-left: -4.5rem;
+  margin-right: 1rem;
+}
+.phase-two {
+  display: inline-block;
+  position: absolute;
+  width: 511px;
+  height: 585px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  padding: 3rem;
+  background-image: url("photos/02.png");
+  background-repeat: no-repeat;
+  background-position: top 2rem center;
+  margin-right: 3rem;
+  margin-top: 3rem;
+}
+.phase-three {
+  display: inline-block;
+  width: 511px;
+  height: 585px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  padding: 3rem;
+  background-image: url("photos/03.png");
+  background-repeat: no-repeat;
+  background-position: top 2rem center;
+  margin-left: 33rem;
+  margin-right: -5rem;
+}
+
+.presale-heading {
+  color: #f7f5f9;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; 
+}
+
+.phase-head {
+  color: #191b21;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px;
+  margin-top: 4rem;
+}
+.eqv {
+  margin-top: 6rem;
+  color: #191b21;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+  margin-bottom: 1rem;
+}
+
+.soft,
+.hard {
+  opacity: 0.8;
+  color: #191b21;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+}
+
+.date {
+  color: #191b21;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+}
+
+.buy {
+  color: #f7f5f9;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 54px; 
+  margin: 2rem;
+  margin-top: 86px;
+}
+
+.buy-details {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; 
+  margin: 5px;
+}
+
+/*Footer*/
+.footer-menu {
+  text-align: center;
+}
+
+.social-network {
+  text-align: center;
+  padding: 100px;
+}
+
+.logo-footer {
+  display: inline-block;
+}
+
+.soc-netw {
+  display: inline-block;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.social {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  border-radius: 50%;
+  border-color: #fff;
+  margin: 0.5rem;
+  border-style: solid;
+}
+.network {
+  margin-top: 24%;
+}
+
+.rights {
+  display: inline-block;
+  text-align: right;
+}
+.about-rights {
+  color: #fff;
+  text-align: right;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; 
+}
+.author-logo {
+  display: inline-block;
+}
+.author-name {
+  display: inline-block;
+  color: #fff;
+  text-align: right;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%; 
+  letter-spacing: 0.24px;
+  vertical-align: super;
+  text-decoration-line: underline;
+}
